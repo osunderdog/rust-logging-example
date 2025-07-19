@@ -5,7 +5,7 @@ Generally I find that logging is not taught very well in school.  Logging is a n
 This rust program demonstrates basic logging capabilites that are available in rust.  As mentoned above, these capabilities are available in most languages.  I'm using rust here because I've been learning rust.
 
 # Exercises
-*) build the program (debug)
+1) build the program (debug)
 ```bash
 cargo build
 ```

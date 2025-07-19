@@ -33,7 +33,7 @@ $ cargo build
 ```
 Now that we know the binary build successfull, you can run the command with the `cargo run` command.  I'm including the `--quiet` option to remove cargo related output.
 
-*) run the program and observe output:
+1) run the program and observe output:
 ```bash
 $ cargo run --quiet
 ```
@@ -76,14 +76,14 @@ Value of pi using rust constant: 3.141592653589793
 
 --- End of Example ---
 ```
-Two things to observe here.  1) Since we set the log level to 'debug' we are seeing logs that are more critical up to the `debug` level.  This is why 'INFO' logs are reported.
-2) Notice the name of the thing that is being logged.  Logs are coming from the `rust_logging_example` main. Logs are also coming from the module `calcualte_pi`.
+Two things to observe here.  
+* Since we set the log level to 'debug' we are seeing logs that are more critical up to the `debug` level.  This is why 'INFO' logs are reported. 
+* Notice the name of the thing that is being logged.  Logs are coming from the `rust_logging_example` main. Logs are also coming from the module `calcualte_pi`.
 
 3) Ok, now run with `RUST_LOG=trace`.  What is the difference between the `debug` level and the `trace` level?
 ![](img/colorized_log_info.png)
 
 
-# 
 
 # Reference
 [Log level info](https://docs.rs/log/latest/log/enum.LevelFilter.html)
